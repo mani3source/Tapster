@@ -7,7 +7,7 @@ public class Bomb : MonoBehaviour
 
     void Start()
     {
-        // Add an onClick event to destroy the bomb when clicked
+        // Add an onClick event to destroy the bomb when clicked and then play
         GetComponent<Button>().onClick.AddListener(DestroyBomb);
     }
 
