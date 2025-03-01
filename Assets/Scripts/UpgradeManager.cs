@@ -45,7 +45,8 @@ public class UpgradeManager : MonoBehaviour
 
     void UpdateCoinText()
     {
-        coinText.text = "Coins: " + tapButton.coins;
+        //coinText.text = "Coins: " + tapButton.coins;
+        coinText.text = tapButton.coins + "\nCoins";  // Format the text with a line break
     }
 
     public void OpenPanel()

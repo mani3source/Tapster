@@ -99,7 +99,8 @@ public class KingdomMenu : MonoBehaviour
     void UpdateUI()
     {
         populationText.text = "Population: " + population;
-        coinText.text = "Coins: " + tapButton.coins;
+        //coinText.text = "Coins: " + tapButton.coins;
+        coinText.text = tapButton.coins + "\nCoins";  // Format the text with a line break
     }
 
     void SaveGame()
