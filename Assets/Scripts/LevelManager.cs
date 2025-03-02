@@ -12,8 +12,8 @@ public class LevelManager : MonoBehaviour
     public Sprite[] tapButtonSprites; // Icons for the tap button at each level
 
     private string[] levelNames = {
-        "Starter", "Champion", "Explorer", "Golden",
-        "Crystal", "Platinum", "Ultimate"
+        "Starter", "Champion", "Crystal", "Explorer", "Golden",
+        "Platinum", "Ultimate"
     };
 
     private int[] levelRequirements = { 0, 500, 1500, 5000, 15000, 50000, 150000 };
