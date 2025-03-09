@@ -6,7 +6,7 @@ public class BombManager : MonoBehaviour
 {
     public GameObject bombPrefab;
     public RectTransform spawnArea;
-    public int totalBombs = 10;
+    public int totalBombs = 25;
     public float gameTime = 50f;
     public float minSpawnTime = 0.5f;
     public float maxSpawnTime = 2f;
